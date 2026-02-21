@@ -13,3 +13,4 @@ export function StacksProvider({ children }) {
       onFinish: () => { setUserData(userSession.loadUserData()); },
       userSession
     });
+  };
