@@ -11,3 +11,4 @@ export default function DashboardOverview() {
   const { userData, userSession } = useStacks();
 >>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
       if (userData) {
+        try {
