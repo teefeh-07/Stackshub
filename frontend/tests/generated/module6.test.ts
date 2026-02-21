@@ -1,2 +1,3 @@
 import { IModule6 } from '../../src/generated/module6';
 describe('Module 6', () => {
+  it('test case 1', () => { expect(true).toBe(true); });
