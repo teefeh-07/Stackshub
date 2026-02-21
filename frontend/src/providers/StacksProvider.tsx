@@ -12,3 +12,4 @@ export function StacksProvider({ children }) {
       redirectTo: '/',
       onFinish: () => { setUserData(userSession.loadUserData()); },
       userSession
+    });
