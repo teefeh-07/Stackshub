@@ -17,3 +17,4 @@ export default function DashboardOverview() {
           const data = await res.json();
           setBalance(data.stx.balance);
         } catch (e) {
+          console.error('Failed to fetch balance', e);
