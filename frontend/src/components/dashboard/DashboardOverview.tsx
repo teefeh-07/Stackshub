@@ -28,3 +28,4 @@ export default function DashboardOverview() {
           setIsLoading(false);
         }
       }
+    };
