@@ -13,3 +13,5 @@ export default function DashboardOverview() {
       if (userData) {
         try {
           // Simulated fetch for robustness
+          const res = await fetch(`https://api.mainnet.hiro.so/extended/v1/address/${userData.profile.stxAddress.mainnet}/balances`);
+          const data = await res.json();
