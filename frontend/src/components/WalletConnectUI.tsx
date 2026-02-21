@@ -12,3 +12,5 @@ export default function WalletConnectUI() {
     <div className='wc-container'>
       <button onClick={onConnect}>{connected ? 'Connected' : 'Connect WalletConnect'}</button>
     </div>
+  );
+}
