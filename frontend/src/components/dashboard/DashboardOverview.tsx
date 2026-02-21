@@ -43,3 +43,4 @@ export default function DashboardOverview() {
       <h2 className='text-3xl font-bold mb-4 text-gray-800'>Overview</h2>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <div className='bg-blue-50 p-4 rounded-lg border border-blue-100'>
+          <p className='text-sm text-blue-600 font-medium'>Total STX Balance</p>
