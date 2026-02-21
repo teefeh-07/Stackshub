@@ -9,3 +9,4 @@ export function StacksProvider({ children }) {
   const authenticate = () => {
     showConnect({
       appDetails: { name: 'Stackshub', icon: window.location.origin + '/icon.png' },
+      redirectTo: '/',
