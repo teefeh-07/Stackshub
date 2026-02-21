@@ -6,3 +6,4 @@ export interface IModule22 {
   prop4: string;
   prop5: string;
   prop6: string;
+  prop7: string;
