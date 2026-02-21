@@ -30,3 +30,4 @@ export default function DashboardOverview() {
       }
     };
     fetchBalance();
+  }, [userData]);
