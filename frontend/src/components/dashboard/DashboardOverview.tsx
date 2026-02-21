@@ -44,3 +44,4 @@ export default function DashboardOverview() {
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <div className='bg-blue-50 p-4 rounded-lg border border-blue-100'>
           <p className='text-sm text-blue-600 font-medium'>Total STX Balance</p>
+          <p className='text-2xl font-bold text-blue-900'>{isLoading ? 'Loading...' : formatBalance(balance)}</p>
