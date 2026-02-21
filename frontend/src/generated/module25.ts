@@ -2,3 +2,4 @@
 export interface IModule25 {
   prop1: string;
   prop2: string;
+  prop3: string;
