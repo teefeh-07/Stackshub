@@ -33,3 +33,4 @@ export default function DashboardOverview() {
   }, [userData]);
   if (!userData) return <div className='p-8 text-center text-gray-500'>Please connect your wallet to view the dashboard.</div>;
   return (
+    <div className='bg-white shadow rounded-lg p-6'>
