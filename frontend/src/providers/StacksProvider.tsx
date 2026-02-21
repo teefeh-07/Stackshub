@@ -11,3 +11,4 @@ export function StacksProvider({ children }) {
       appDetails: { name: 'Stackshub', icon: window.location.origin + '/icon.png' },
       redirectTo: '/',
       onFinish: () => { setUserData(userSession.loadUserData()); },
+      userSession
