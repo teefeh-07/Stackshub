@@ -7,3 +7,4 @@ export default function WalletConnectUI() {
   const onConnect = async () => {
     await modal.openModal();
     setConnected(true);
+  };
