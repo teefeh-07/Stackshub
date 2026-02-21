@@ -16,3 +16,6 @@ export function StacksProvider({ children }) {
   };
   return (
     <StacksContext.Provider value={{ userSession, userData, authenticate }}>
+      {children}
+    </StacksContext.Provider>
+  );
