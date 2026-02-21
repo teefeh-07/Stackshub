@@ -7,3 +7,6 @@ const StacksContext = createContext(null);
 export function StacksProvider({ children }) {
   const [userData, setUserData] = useState(null);
   const authenticate = () => {
+    showConnect({
+      appDetails: { name: 'Stackshub', icon: window.location.origin + '/icon.png' },
+      redirectTo: '/',
