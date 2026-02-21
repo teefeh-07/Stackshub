@@ -47,3 +47,4 @@ export default function DashboardOverview() {
           <p className='text-2xl font-bold text-blue-900'>{isLoading ? 'Loading...' : formatBalance(balance)}</p>
         </div>
         <div className='bg-green-50 p-4 rounded-lg border border-green-100'>
+          <p className='text-sm text-green-600 font-medium'>Staked Amount</p>
