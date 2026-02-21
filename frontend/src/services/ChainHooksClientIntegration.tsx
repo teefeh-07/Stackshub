@@ -4,3 +4,4 @@ export const client = new ChainhookClient({
   apiKey: process.env.HIRO_API_KEY || ''
 });
 export async function startTracking() {
+  console.log('Initializing chainhook client...');
