@@ -9,3 +9,4 @@ export default function WalletConnectUI() {
     setConnected(true);
   };
   return (
+    <div className='wc-container'>
