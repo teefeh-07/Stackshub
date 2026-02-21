@@ -16,3 +16,4 @@ export default function DashboardOverview() {
           const res = await fetch(`https://api.mainnet.hiro.so/extended/v1/address/${userData.profile.stxAddress.mainnet}/balances`);
           const data = await res.json();
           setBalance(data.stx.balance);
+        } catch (e) {
