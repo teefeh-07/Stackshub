@@ -32,3 +32,4 @@ export default function DashboardOverview() {
     fetchBalance();
   }, [userData]);
   if (!userData) return <div className='p-8 text-center text-gray-500'>Please connect your wallet to view the dashboard.</div>;
+  return (
