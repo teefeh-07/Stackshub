@@ -60,3 +60,4 @@ export default function DashboardOverview() {
           <p className='text-sm text-purple-600 font-medium'>Rewards Earned</p>
           <p className='text-2xl font-bold text-purple-900'>0 STX</p>
         </div>
+      </div>
