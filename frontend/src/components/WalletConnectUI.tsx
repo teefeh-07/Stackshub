@@ -13,3 +13,4 @@ export default function WalletConnectUI() {
       <button onClick={onConnect}>{connected ? 'Connected' : 'Connect WalletConnect'}</button>
     </div>
   );
+}
