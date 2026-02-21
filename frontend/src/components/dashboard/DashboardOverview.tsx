@@ -18,3 +18,4 @@ export default function DashboardOverview() {
           setBalance(data.stx.balance);
         } catch (e) {
           console.error('Failed to fetch balance', e);
+        } finally {
