@@ -4,3 +4,4 @@ const projectId = 'your_project_id_here';
 const modal = new WalletConnectModal({ projectId });
 export default function WalletConnectUI() {
   const [connected, setConnected] = useState(false);
+  const onConnect = async () => {
