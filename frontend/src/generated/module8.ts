@@ -7,3 +7,4 @@ export interface IModule8 {
   prop5: string;
   prop6: string;
   prop7: string;
+}
