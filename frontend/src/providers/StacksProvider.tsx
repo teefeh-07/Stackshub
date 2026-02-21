@@ -10,3 +10,6 @@ export function StacksProvider({ children }) {
     showConnect({
       appDetails: { name: 'Stackshub', icon: window.location.origin + '/icon.png' },
       redirectTo: '/',
+      onFinish: () => { setUserData(userSession.loadUserData()); },
+      userSession
+    });
