@@ -8,3 +8,4 @@ export default function WalletConnectUI() {
     await modal.openModal();
     setConnected(true);
   };
+  return (
