@@ -48,3 +48,4 @@ export default function DashboardOverview() {
         </div>
         <div className='bg-green-50 p-4 rounded-lg border border-green-100'>
           <p className='text-sm text-green-600 font-medium'>Staked Amount</p>
+          <p className='text-2xl font-bold text-green-900'>0 STX</p>
