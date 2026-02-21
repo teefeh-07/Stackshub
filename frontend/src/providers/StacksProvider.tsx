@@ -19,3 +19,5 @@ export function StacksProvider({ children }) {
       {children}
     </StacksContext.Provider>
   );
+}
+export const useStacks = () => useContext(StacksContext);
