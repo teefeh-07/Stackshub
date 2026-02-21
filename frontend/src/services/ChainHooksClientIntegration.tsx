@@ -7,3 +7,4 @@ export async function startTracking() {
   console.log('Initializing chainhook client...');
   return client;
 }
+export async function getPredicates() {
