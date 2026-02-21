@@ -9,3 +9,4 @@ export async function startTracking() {
 }
 export async function getPredicates() {
   // Fetching predicates from chainhooks
+  return [];
