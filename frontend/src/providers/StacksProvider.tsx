@@ -20,3 +20,4 @@ export function StacksProvider({ children }) {
     </StacksContext.Provider>
   );
 }
+export const useStacks = () => useContext(StacksContext);
