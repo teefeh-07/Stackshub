@@ -5,3 +5,4 @@ export const client = new ChainhookClient({
 });
 export async function startTracking() {
   console.log('Initializing chainhook client...');
+  return client;
