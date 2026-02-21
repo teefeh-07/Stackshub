@@ -1,0 +1,38 @@
+{
+  "name": "serenehub-contracts-tests",
+  "version": "1.0.0",
+  "description": "Smart Contract Tests and Scripts for SereneHub",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:report": "vitest run -- --coverage --costs",
+    "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
+  },
+  "author": "SereneHub Team",
+  "license": "ISC",
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "defi",
+    "nft"
+  ],
+  "dependencies": {
+    "@scure/bip32": "^2.0.1",
+    "@stacks/clarinet-sdk": "^3.13.1",
+    "@stacks/network": "^7.3.1",
+    "@stacks/transactions": "^7.2.0",
+    "@stacks/wallet-sdk": "^7.2.0",
+    "@types/node": "^24.10.9",
+    "bip39": "^3.1.0",
+    "chokidar-cli": "^3.0.0",
+    "dotenv": "^17.2.3",
+    "vitest": "^4.0.18",
+    "vitest-environment-clarinet": "^3.0.0"
+  },
+  "main": "transaction-generator.js",
+  "directories": {
+    "test": "tests"
+  }
+}

@@ -1,0 +1,54 @@
+# Main project configuration
+# Defines contracts, dependencies, and settings for the Clarinet runtime.
+[project]
+name = 'serenehub-contracts'
+description = 'DeFi Platform Contracts for SereneHub'
+authors = ['AdekunleBamz']
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+
+# Contract: NFT Marketplace
+# Logic for listing, dealing, and minting NFTs.
+[contracts.serenehub-nft-marketplace]
+path = 'contracts/serenehub-nft-marketplace.clar'
+clarity_version = 4
+epoch = '3.3'
+
+# Contract: Service Registry
+# Logic for service providers to register and receive payments.
+[contracts.serenehub-service-registry]
+path = 'contracts/serenehub-service-registry.clar'
+clarity_version = 4
+epoch = '3.3'
+
+# Contract: Staking Vault
+# Logic for time-locked stacking and rewards.
+[contracts.serenehub-staking-vault]
+path = 'contracts/serenehub-staking-vault.clar'
+clarity_version = 4
+epoch = '3.3'
+
+# Contract: Token Launchpad
+# Logic for creating new SIP-010 fungible tokens.
+[contracts.serenehub-token-launchpad]
+path = 'contracts/serenehub-token-launchpad.clar'
+clarity_version = 4
+epoch = '3.3'
+[repl.analysis]
+passes = [
+    'call_checker',
+    'check_checker',
+]
+
+[repl.analysis.lints]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'

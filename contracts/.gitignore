@@ -1,0 +1,21 @@
+**/settings/Mainnet.toml
+**/settings/Testnet.toml
+.cache/**
+history.txt
+.env
+.env.local
+.env.*
+
+# Sensitive tools (DO NOT COMMIT)
+functions/
+deployments/
+
+logs
+*.log
+npm-debug.log*
+coverage
+*.info
+costs-reports.json
+node_modules
+
+.vscode/
