@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const [balance, setBalance] = useState('0');
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -10,11 +11,14 @@
 >>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
 =======
 >>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
+=======
+>>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
 import React, { useState, useEffect } from 'react';
 import { useStacks } from '../../providers/StacksProvider';
 import { formatBalance } from '../../utils/formatters';
 export default function DashboardOverview() {
   const { userData, userSession } = useStacks();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
@@ -49,3 +53,6 @@ export default function DashboardOverview() {
         <div className='bg-green-50 p-4 rounded-lg border border-green-100'>
           <p className='text-sm text-green-600 font-medium'>Staked Amount</p>
           <p className='text-2xl font-bold text-green-900'>0 STX</p>
+=======
+>>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
+        </div>
