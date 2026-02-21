@@ -56,3 +56,4 @@ export default function DashboardOverview() {
 =======
 >>>>>>> de3c4be8ce32138b2dae7ef32a4cfe3d9d6e027d
         </div>
+        <div className='bg-purple-50 p-4 rounded-lg border border-purple-100'>
