@@ -13,3 +13,6 @@ export function StacksProvider({ children }) {
       onFinish: () => { setUserData(userSession.loadUserData()); },
       userSession
     });
+  };
+  return (
+    <StacksContext.Provider value={{ userSession, userData, authenticate }}>
