@@ -8,3 +8,5 @@ export default function WalletConnectUI() {
     await modal.openModal();
     setConnected(true);
   };
+  return (
+    <div className='wc-container'>
