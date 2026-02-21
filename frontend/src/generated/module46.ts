@@ -1,3 +1,4 @@
 // Module 46
 export interface IModule46 {
   prop1: string;
+  prop2: string;
